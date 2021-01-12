@@ -54,7 +54,7 @@ android {
                   keyAlias System.getenv()["FCI_KEY_ALIAS"]
                   keyPassword System.getenv()["FCI_KEY_PASSWORD"]
               } else {
-                  storeFile file("C:/Users/sapan/.android/key.jks")
+                  storeFile file("C:/Users/sapan/Desktop/Flutter/cI-cdflutter-project/key.jks")
                   storePassword "android"
                   keyAlias "key"
                   keyPassword "android"
